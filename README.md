@@ -81,7 +81,10 @@ arch-chroot /mnt
 ```
 ln -sf /usr/share/zoneinfo/Region/City /etc/localtime
 ```
+```
 hwclock --systohc
+```
+
 # Localization
 Edit /etc/locale.gen and uncomment en_US.UTF-8 UTF-8 and other needed locales. Generate the locales by running: 
 ```
